@@ -47,22 +47,22 @@ Create an A record in Cloudflare
 
 
 Browser
-|
-v
-nginx.ashkri.co.uk
-|
-v
+   |
+   v
+nginx.abdirahimabdi
+   |
+   v
 Cloudflare DNS
-|
-v
+   |
+   v
 EC2 Public IP
-|
-v
+   |
+   v
 AWS Security Group
-|
-| Port 80
-v
+   |
+   | Port 80
+   v
 NGINX
-|
-v
+   |
+   v
 NGINX Welcome Page
