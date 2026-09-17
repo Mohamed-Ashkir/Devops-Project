@@ -46,6 +46,7 @@ Create an A record in Cloudflare
 ![description of what this shows](Screenshot%202026-09-17%20at%2016.18.02.png)
 
 
+'
 Browser
 |
 v
@@ -66,3 +67,4 @@ NGINX
 |
 v
 NGINX Welcome Page
+'
