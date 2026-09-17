@@ -17,3 +17,5 @@ Steps:
 - Firewall(security group) - Click Allow SSH traffic. We need this to log in. Click Allow HTTP traffic from the internet. Why? You need this. People access your site via http://ashkir.co.uk on port 80. HTTP is fast and simple and HTTPS requires SSL certificate 
 -Launch instance and save it 
 - Click connect and get the SSH key 
+
+![description of what this shows](Screenshot%202026-09-17%20at%2016.12.13.png)
