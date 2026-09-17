@@ -33,3 +33,33 @@ Steps:
 
 ![description of what this shows](Screenshot%202026-09-17%20at%2016.17.33.png)
 
+# Configure DNS
+
+Create an A record in Cloudflare
+- Click on add record, type the domain name you bought ashkir.co.uk
+- In content put the public ipv4 address you can find this in EC2 instance
+- Proxy turned off as we want traffic to go straight to my EC2 Ip, no middleman (cloudflare)
+- A-Record - type of DNS record that maps a domain name to it physical ipv4 address
+
+
+
+Browser
+|
+v
+nginx.ashkri.co.uk
+|
+v
+Cloudflare DNS
+|
+v
+EC2 Public IP
+|
+v
+AWS Security Group
+|
+| Port 80
+v
+NGINX
+|
+v
+NGINX Welcome Page
