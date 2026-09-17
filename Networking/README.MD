@@ -41,6 +41,11 @@ Create an A record in Cloudflare
 - Proxy turned off as we want traffic to go straight to my EC2 Ip, no middleman (cloudflare)
 - A-Record - type of DNS record that maps a domain name to it physical ipv4 address
 
+![description of what this shows](Screenshot%202026-09-17%20at%2016.17.46.png)
+
+![description of what this shows](Screenshot%202026-09-17%20at%2016.18.02.png)
+
+
 
 
 Browser
