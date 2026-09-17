@@ -30,3 +30,6 @@ Steps:
 - sudo systemctl start nginx- it tells the linux system to turn nginx web server in the background
 - Sudo systemctl enable nginx- make nginx turn itself on automatically every time the server reboots
 - To check if nginx is working we type curl http://localhost see below for the output
+
+![description of what this shows](Screenshot%202026-09-17%20at%2016.17.33.png)
+
