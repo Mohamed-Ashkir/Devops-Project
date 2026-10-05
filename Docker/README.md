@@ -29,11 +29,11 @@ Mac or Windows:containers use the hidden VM's Linux kernel.
 | **Isolation** | Strong: a full separate OS | Process-level: lighter, but weaker |
 
 
-VM run on hypervisor- which fakes an entire computer, hardware and all
+VM run on hypervisor which fakes an entire computer, hardware and all
 
-container** has no hypervisor. It runs straight on the host's kernel.
+container has no hypervisor. It runs straight on the host's kernel.
 
-#Kernel- the brain
+# Kernel- the brain
 
 A software program that acts as a bridge, it connects software application to physical computer hardware. 
 
