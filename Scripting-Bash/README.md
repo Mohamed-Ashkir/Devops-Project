@@ -15,7 +15,7 @@ Enter first number: 10 Enter second number: 5
 
 Results: 10 + 5 = 15 10 - 5 = 5 10 × 5 = 50 10 ÷ 5 = 2
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.36.22.png)
 
 ### Challenge 2: File Operations Script
 
