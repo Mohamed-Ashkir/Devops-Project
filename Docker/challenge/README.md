@@ -32,8 +32,8 @@ docker compose down
 The challenge brief tests on port 5000. This project uses 5001 instead, because on macOS port 5000 is taken by the AirPlay Receiver service. Everything else matches the brief.
 
 # Screenshots
-Welcome page (/)
-Visit counter (/count)
+![description of what this shows](Screenshot 2026-10-03 at 21.15.52.png)
+![description of what this shows](Screenshot 2026-10-03 at 21.15.24.png)
 
 Known limitations
 The count resets when the stack is removed with docker compose down, because Redis data is not stored in a volume yet. (Bonus task: named volume.)
