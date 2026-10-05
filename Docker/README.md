@@ -1,4 +1,13 @@
 # Docker 
+
+> [!TIP]
+> ## 🚀 Featured project: Flask + Redis multi-container app
+> A Python web app and a Redis database running together with Docker Compose.
+> **[→ View the project](challenge/)**
+
+![Visit counter running](challenge/screenshots/count.png)
+
+
 Tool that builds, ships and runs applications. It packages an app into an image and runs that image as a container, so they run the same way anywhere.
 
 Important Rule for Docker in MacOs, Windows and non-linux operating systems 
