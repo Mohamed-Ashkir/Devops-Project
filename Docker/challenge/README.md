@@ -53,6 +53,8 @@ I built the project one piece at a time, testing each piece before moving on.
 4. Docker Compose for both services. I defined two services, web (built from my Dockerfile) and redis (the official image). Inside a container, localhost means that container itself, so I changed the app to connect to Redis using the service name redis instead.
 5. Tested with docker compose up --build, and confirmed both routes in the browser and the logs.
 
+![description of what this shows](Screenshot%202026-10-03%20at%2021.15.07.png)
+
 # Challenges and how I solved them
 - from flask import flask → ImportError → the class is Flask (capital F)
 - Server didn't start, no error → 'main' instead of '__main__'
