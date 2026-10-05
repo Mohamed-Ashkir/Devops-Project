@@ -19,9 +19,15 @@ Mac or Windows:containers use the hidden VM's Linux kernel.
 - Docker Images- read only template that holds everything an app needs to run: the code, dependency ( software needed by application to work properly and you didn’t write it), libraries (specific type of dependency, pre-written code that you can import into your own program to solve a specific problem.) and the settings
 - Docker Containers- **live, running instance( living copy)**  of a Docker image. When you tell Docker to run an image, it unwraps that read-only template, creates an isolated space in your computer's memory, and starts running the application
 
-#Benefits of container vs Virtual machines
+# Benefits of container vs Virtual machines
 
-screenshot here 
+|  | VM | Container |
+| --- | --- | --- |
+| **Startup** | Minutes | Seconds |
+| **Resources** | Heavy, because each VM has a full guest OS | Light, because containers share the host kernel |
+| **Portability** | Low | High: runs anywhere Docker runs |
+| **Isolation** | Strong: a full separate OS | Process-level: lighter, but weaker |
+
 
 VM run on hypervisor- which fakes an entire computer, hardware and all
 
