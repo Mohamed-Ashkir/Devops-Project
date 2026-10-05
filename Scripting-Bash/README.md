@@ -35,7 +35,7 @@ Directory 'bash_demo' created. File 'demo.txt' created.
 
 File contents: This file was created by a Bash script on 2024-11-29
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.36.25.png)
 
 ### Challenge 3: File Checker with Permissions
 
@@ -56,7 +56,7 @@ File '/etc/passwd' exists. ✓ File is readable ✓ File is writable ✗ File is
 
 ---
 
-!Screenshot 2026-09-24 at 19.49.18.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.36.36.png)
 
 ### Challenge 4: Backup Script for Text Files
 
@@ -78,7 +78,7 @@ Backup directory created: backup_2024-11-29_14-30 Copying .txt files...
 
 Backup complete! Files backed up: 5
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.36.43.png)
 
 # **Bash Battle Arena**
 
@@ -86,7 +86,7 @@ Backup complete! Files backed up: 5
 
 **Mission**: Create a script that outputs the numbers 1 to 10, one number per line.
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.36.49.png)
 
 Solution: For loops
 for num in {0..9} tells the script to repeat an action exactly 10 times, ((num++)) this add one to the variable num and it prints number 1 till 10 in a line.
@@ -95,7 +95,7 @@ for num in {0..9} tells the script to repeat an action exactly 10 times, ((num++
 
 **Mission**: Write a script that checks if a file named `hero.txt` exists in the `Arena` directory. If it does, print `Hero found!`; otherwise, print `Hero missing!`.
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.00.png)
 
 the -f flag is used to look for a file name hero.txt 
 
@@ -103,7 +103,7 @@ the -f flag is used to look for a file name hero.txt
 
 **Mission**: Create a script that copies all `.txt` files from the `Arena` directory to a new directory called `Backup`.
 
-!Screenshot 2026-09-25 at 17.17.10.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.05.png)
 
 mkdir -p the flag option -p is used create a parent directory with sub directory. Using the -p in a script ensure your script doesn’t crash.
 
@@ -118,17 +118,17 @@ mkdir -p the flag option -p is used create a parent directory with sub directory
 4. List the contents of both Battlefield and Archive.
 ```
 
-!Screenshot 2026-09-25 at 17.46.39.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.11.png)
 
 Thought process- i created a directory using the -p flag, then instead of creating file one at a time i managed to do it in one line. Putting the directory/filename i was able to tell the computer Go inside the  battlefield folder right next to me, and create a brand new file.  I used IF statement to check if the file knight.txt inside the directory battlefield exist; then move it to another directory i created called archive. This is how my terminal should look like when i run the script:
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.16.png)
 
 ## Level 6: Argument Parsing
 
 **Mission**: Write a script that accepts a filename as an argument and prints the number of lines in that file. If no filename is provided, display a message saying 'No file provided'.
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.21.png)
 
 Solution- we used if statement to check if the argument is a file and if it is then prints the number of lines in that file. No  argument or no filename it will print no file provided
 
@@ -136,7 +136,7 @@ Solution- we used if statement to check if the argument is a file and if it is t
 
 **Mission**: Write a script that sorts all `.txt` files in a directory by their size, from smallest to largest, and displays the sorted list.
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.26.png)
 
 Solution- This script first listed all the file with the .txt and then used pipe to connect the output from previous command to the next one. sort is used with the flag option -k as i want to specifically sort out the size of the file but that information is in the fifth column.  Sort -k is used to the fifth column and the -n flag sort it in numerical order from smallest to largest.
 
@@ -144,7 +144,7 @@ Solution- This script first listed all the file with the .txt and then used pipe
 
 **Mission**: Create a script that searches for a specific word or phrase across all `.log` files in a directory and outputs the names of the files that contain the word or phrase.
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.31.png)
 
 grep -l is used to tell the computer *"Just give me the names of the files that contain this word, and skip showing me the actual lines of text”* 
 
@@ -158,7 +158,7 @@ Solution- inotifywait is a command that is used to monitor **directories and fil
 
 ### Test to see if Level 9 script works:
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.37.png)
 
 ### Live Test- Developed a live filesystem event monitor utilizing `inotifywait` to capture real-time creation, modification, and deletion logs. Testing was conducted using parallel terminal sessions; execution was initiated in the primary shell environment while test file payloads were generated and altered in a secondary shell. The primary interface successfully validated the pipeline by capturing and printing all real-time events.
 
@@ -174,14 +174,11 @@ Solution- inotifywait is a command that is used to monitor **directories and fil
 5. Checks if any of the files contain the word 'Victory', and if found, moves the file to a directory called Victory_Archive.
 ```
 
-!image.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.48.png)
 
 ## **Level 11: Automated Disk Space Report**
 
 **Mission**: Create a script that checks the disk space usage of a specified directory and sends an alert if the usage exceeds a given threshold.
 
-!Screenshot 2026-09-28 at 18.41.41.png
+![description of what this shows](Screenshot%202026-10-05%20at%2013.37.53.png)
 
-## **Level 12: Simple Configuration File Parser**
-
-**Mission**: Write a script that reads a configuration file in the format `KEY=VALUE` and prints each key-value pair.
